@@ -1,5 +1,5 @@
 {% set name = "crccheck" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/crccheck-{{ version }}.tar.gz
-  sha256: 14494eafba85de3ca002fc52ea4a64d698cdddfa9144429730e755e7c1430956
+  sha256: 236abec7d9f82fd1f4c789f0b2ecf51b71f2ffe7bc76ed6803cd7489f41efd83
 
 build:
   noarch: python
